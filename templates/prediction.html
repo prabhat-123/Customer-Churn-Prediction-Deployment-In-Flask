@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Customer Churn Prediction App</title>
+    </head>
+    <body>
+        <h1>Will the customer churn ?</h1>
+        <form method="POST">
+            <label>Credit Score</label>
+            <br>
+            <input type="integer" name="cr_score"/>
+            <br>
+            <label>Country</label>
+            <br>
+            <select name="country">
+                <option name="country" value="France">France</option>
+                <option name="country" value="Germany">Germany</option>
+                <option name="country" value="Spain">Spain</option>
+            </select>
+            <br>
+            <label>Gender</label>
+            <br>
+            <select name="gender">
+                <option name="gender" value="1">Male<option/>
+                <option name="gender" value="0">Female<option/>
+            </select>
+            <br>
+            <label>Age</label>
+            <br>
+            <input type="number" name="age"/>
+            <br>
+            <label>Tenure</label>
+            <br>
+            <input type="number" name="tenure"/>
+            <br>
+            <label>Balance</label>
+            <br>
+            <input type="number" name="balance"/>
+            <br>
+            <label>No.Of.Products</label>
+            <br>
+            <input type="number" name="no_of_products"/>
+            <br>
+            <label>Has.Cr.Card</label>
+            <br>
+            <input type="radio" name="cr_card" value="1">Yes</radio>
+            <input type="radio" name="cr_card" value="0">No</radio>
+            </input>
+            <br>
+            <label>Is Active Member</label>
+            <br>
+            <input type="radio" name="active_member" value="1">Yes</radio>
+            <input type="radio" name="active_member" value="0">No</radio>
+            </input>
+            <br>
+            <label>Estimated Salary</label>
+            <br>
+            <input type="number" name="salary"/>
+            <br>
+            <button type="submit" name="submit" id="submit_btn">Predict</button>
+        </form>
+    </body>
+</html>
+
